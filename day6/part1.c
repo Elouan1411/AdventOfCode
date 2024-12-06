@@ -136,6 +136,13 @@ int calculPath(char** map, Vect2D size) {
     return cpt;
 }
 
+void freeMap(char** map, Vect2D size) {
+    for (int i = 0; i < size.x; i++) {
+        free(map[i]);
+    }
+    free(map);
+}
+
 int main() {
     Vect2D v;
     char** map;
@@ -143,4 +150,5 @@ int main() {
     // displayMap(map, v);
     // printf("\n");
     calculPath(map, v);
+    freeMap(map, v);
 }
