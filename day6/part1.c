@@ -46,7 +46,7 @@ void readFileToMap(const char* filename, char*** map, Vect2D* size) {
     for (int i = 0; i < size->x; i++) {
         (*map)[i] = (char*)malloc(
             (size->y + 1) *
-            sizeof(char));  // +1 pour le caractère null de fin de chaîne
+            sizeof(char));  //+1 pour le caractère null de fin de chaîne
     }
 
     // Remplir le tableau 2D avec le contenu du fichier
