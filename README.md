@@ -1,5 +1,3 @@
-Voici un exemple simple de README pour votre repository Advent of Code : 
-
 ---
 
 # Advent of Code 🎄
