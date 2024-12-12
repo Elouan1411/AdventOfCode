@@ -2,19 +2,19 @@
 
 # Advent of Code 🎄
 
-Ce repository contient mes solutions pour [Advent of Code](https://adventofcode.com), un défi de programmation quotidien qui se déroule chaque mois de décembre.
+This repository contains my solutions for [Advent of Code](https://adventofcode.com), a daily programming challenge that takes place every December.
 
 ## Structure
 
-- Chaque dossier correspond à un jour (`day1`, `day2`, ...).
-- Ecrit en **C**, **python** ou **java**
-- Les inputs des puzzles sont inclus dans des fichiers texte associés.
+- Each folder corresponds to a day (`day1`, `day2`, ...).
+- Written in **C**, **Python**, or **Java**.
+- The puzzle inputs are included in associated text files.
 
-## À propos
+## About
 
-- **Auteur** : [Elouan1411]
-- **Objectif** : S'améliorer en programmation tout en s'amusant !
+- **Author**: Elouan1411
+- **Goal**: Improve programming skills while having fun!
 
-Bon code ! ✨
+Happy coding! ✨
 
---- 
+---
