@@ -6,12 +6,12 @@ fn count_word(grid: &[Vec<char>], word: &str) -> usize {
     let directions = [
         (0, 1),   // droite
         (1, 0),   // bas
-        (1, 1),   // diagonale bas-droite
-        (1, -1),  // diagonale bas-gauche
+        (1, 1),   // diagonale bas droite
+        (1, -1),  // diagonale bas gauche
         (0, -1),  // gauche
         (-1, 0),  // haut
-        (-1, -1), // diagonale haut-gauche
-        (-1, 1),  // diagonale haut-droite
+        (-1, -1), // diagonale haut gauche
+        (-1, 1),  // diagonale haut droite
     ];
 
     let word_len = word.len();
